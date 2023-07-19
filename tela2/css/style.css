@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+
+}
+
+body {
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F52CDD;
+
+}
+
+.topoEmergencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 211, 69, 1);
+    ;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 117px;
+    padding-bottom: 26px;
+
+
+
+}
+
+.voltar button {
+    background: none;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    
+}
+
+.ajuda button {
+    background: none;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+}
+
+.bloco1 {
+    width: 100%;
+}
+
+
+.bloco4 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco4 button {
+    width: 160px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F5D345;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.login {
+    background-color: #F5D345;
+    padding: 10px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.register {
+    background-color: #F5D345;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.urgence {
+    background-color: #F60909;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+main{
+    margin-top: 160px;
+    
+}

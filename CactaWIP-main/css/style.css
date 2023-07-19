@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+body {
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F52CDD;
+
+}
+
+.topoEmergencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 211, 69, 1);
+    ;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 117px;
+    padding-bottom: 26px;
+
+
+
+}
+
+.blocoLogin {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+
+}
+
+p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.loginButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 160px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F52CDD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    width: 241px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.voltar button {
+    background: none;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+}
+
+.ajuda button {
+    background: none;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+}
+
+.bloco1 {
+    width: 100%;
+}
+
+
+.bloco4 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco4 button {
+    width: 160px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F5D345;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.loginButton button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: #F52CDD;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 51px;
+}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.formLogo {
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 9px;
+}
+
+.emergencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botaoPolicia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    fill: #FFF;
+
+}
+
+.botaoPolicia button {
+    background: none;
+    border: none;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 129px;
+    height: 129px;
+
+}
+
+.botaoPolicia p {
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+
+.botaoEmergencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    fill: #FFF;
+}
+
+.botaoEmergencia button {
+    background: none;
+    border: none;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 129px;
+    height: 129px;
+
+}
+
+.botaoEmergencia p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 180px;
+    height: 46px;
+    text-align: center;
+
+}
+
+.back-pink{
+    background: #F52CDD;
+    border: 1px solid red;
+    width: 30%;
+    /* display: flex; */
+    padding: 35%;
+    position: fixed;
+    left: 0;
+    border-radius: 20px;
+}
+.back-pink .front-pink{
+    background: #18011696;
+    border: 1px solid rgb(0, 0, 0);
+    width: 40%;
+    padding: 30%;
+    position: fixed;
+    left: 0;
+    top: 52%;
+    border-radius: 20px;
+}
+
+.btn-func{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: fixed;
+    top: 70%;
+}
+a{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+   
+a .btn-emergency{
+    background: none;
+    border: none;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 15vw;
+    height: 20vh;
+    cursor: pointer;
+    
+}
+.btn-sneack{
+    background: none;
+    border: none;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 15vw;
+    height: 20vh;
+}
+.btn-warpper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 0%;
+}
+
+.para{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
